@@ -7,7 +7,7 @@ function App() {
   console.log(basename, "BASENAME")
   return (
     <CartProvider>
-      <BrowserRouter basename={'/my-ecommerce-app'}>
+      <BrowserRouter basename={basename}>
         <Routes />
       </BrowserRouter>
     </CartProvider>
